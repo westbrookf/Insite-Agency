@@ -1,0 +1,1446 @@
+.mainshowCase {
+  background: linear-gradient(to right, #30303082, #30303082), url(/src/imgs/mainShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  max-width: 100%;
+  padding-top: 120px;
+  margin-top: -120px; }
+  @media only screen and (min-width: 768px) {
+    .mainshowCase {
+      margin-top: -120px;
+      padding-top: 260px;
+      height: 100vh; } }
+  @media only screen and (min-width: 1020px) {
+    .mainshowCase {
+      padding-top: 200px; } }
+  @media only screen and (min-width: 1200px) {
+    .mainshowCase {
+      padding-top: 360px; } }
+  @media only screen and (min-width: 1920px) {
+    .mainshowCase {
+      height: 120vh; } }
+  @media only screen and (min-width: 2560px) {
+    .mainshowCase {
+      margin-top: -160px; } }
+  .mainshowCase .welcomeMes {
+    height: auto;
+    width: 80%;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 150px; }
+    @media only screen and (max-width: 330px) {
+      .mainshowCase .welcomeMes {
+        padding-top: 70px; } }
+    @media only screen and (min-width: 768px) {
+      .mainshowCase .welcomeMes {
+        margin-left: 100px;
+        width: 60%; } }
+    @media only screen and (min-width: 1020px) {
+      .mainshowCase .welcomeMes {
+        width: 47%;
+        padding-top: 170px; } }
+    @media only screen and (min-width: 1200px) {
+      .mainshowCase .welcomeMes {
+        padding-top: 110px; } }
+    @media only screen and (min-width: 1920px) {
+      .mainshowCase .welcomeMes {
+        padding-top: 160px; } }
+    @media only screen and (min-width: 2560px) {
+      .mainshowCase .welcomeMes {
+        padding-top: 400px; } }
+    .mainshowCase .welcomeMes h3 {
+      font-size: 30px;
+      color: #f7f7f7;
+      font-weight: lighter; }
+      @media only screen and (max-width: 330px) {
+        .mainshowCase .welcomeMes h3 {
+          font-size: 20px; } }
+      @media only screen and (min-width: 768px) {
+        .mainshowCase .welcomeMes h3 {
+          font-size: 44px; } }
+      @media only screen and (min-width: 1200px) {
+        .mainshowCase .welcomeMes h3 {
+          font-size: 60px; } }
+      @media only screen and (min-width: 1920px) {
+        .mainshowCase .welcomeMes h3 {
+          font-size: 60px; } }
+      @media only screen and (min-width: 2560px) {
+        .mainshowCase .welcomeMes h3 {
+          font-size: 80px; } }
+      .mainshowCase .welcomeMes h3 strong {
+        font-size: 30px;
+        color: #38b6ff;
+        text-transform: uppercase;
+        font-weight: 300; }
+        @media only screen and (max-width: 330px) {
+          .mainshowCase .welcomeMes h3 strong {
+            font-size: 30px; } }
+        @media only screen and (min-width: 768px) {
+          .mainshowCase .welcomeMes h3 strong {
+            font-size: 50px;
+            font-weight: 500; } }
+        @media only screen and (min-width: 2560px) {
+          .mainshowCase .welcomeMes h3 strong {
+            font-size: 90px; } }
+    .mainshowCase .welcomeMes p {
+      font-size: 24px;
+      font-weight: lighter;
+      color: #f7f7f7;
+      margin-top: 4px; }
+      @media only screen and (max-width: 330px) {
+        .mainshowCase .welcomeMes p {
+          font-size: 18px; } }
+      @media only screen and (min-width: 1020px) {
+        .mainshowCase .welcomeMes p {
+          font-size: 30px; } }
+      @media only screen and (min-width: 1200px) {
+        .mainshowCase .welcomeMes p {
+          font-size: 34px; } }
+      @media only screen and (min-width: 2560px) {
+        .mainshowCase .welcomeMes p {
+          font-size: 50px; } }
+
+.hmeAbtContain {
+  max-width: 100%;
+  margin-top: 80px; }
+  @media only screen and (min-width: 1440px) {
+    .hmeAbtContain {
+      margin-top: 80px;
+      margin-bottom: 60px; } }
+  .hmeAbtContain h1 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 90%;
+    margin-left: 30px; }
+    @media only screen and (min-width: 1200px) {
+      .hmeAbtContain h1 {
+        margin-left: 60px; } }
+    @media only screen and (min-width: 2560px) {
+      .hmeAbtContain h1 {
+        font-size: 50px; } }
+    .hmeAbtContain h1 strong {
+      font-size: 30px; }
+      @media only screen and (min-width: 2560px) {
+        .hmeAbtContain h1 strong {
+          font-size: 60px; } }
+  .hmeAbtContain .abtUsText {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) {
+      .hmeAbtContain .abtUsText {
+        width: 96%; } }
+    @media only screen and (min-width: 1020px) {
+      .hmeAbtContain .abtUsText {
+        width: 60%;
+        margin-right: 40px; } }
+    @media only screen and (min-width: 1200px) {
+      .hmeAbtContain .abtUsText {
+        width: 90%;
+        margin-left: 60px; } }
+    .hmeAbtContain .abtUsText p {
+      font-size: 17px;
+      font-weight: lighter;
+      color: #303030cd;
+      line-height: 26px; }
+      @media only screen and (min-width: 768px) {
+        .hmeAbtContain .abtUsText p {
+          font-size: 20px;
+          line-height: 30px;
+          width: 86%; } }
+      @media only screen and (min-width: 1200px) {
+        .hmeAbtContain .abtUsText p {
+          font-size: 24px;
+          width: 100%; } }
+      @media only screen and (min-width: 1440px) {
+        .hmeAbtContain .abtUsText p {
+          line-height: 34px; } }
+
+.proudWork {
+  max-width: 100%;
+  margin-top: 80px; }
+  .proudWork h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%; }
+    @media only screen and (max-width: 330px) {
+      .proudWork h1 {
+        font-size: 26px; } }
+    @media only screen and (min-width: 2560px) {
+      .proudWork h1 {
+        font-size: 50px; } }
+    .proudWork h1 strong {
+      font-size: 30px; }
+      @media only screen and (min-width: 2560px) {
+        .proudWork h1 strong {
+          font-size: 60px; } }
+  .proudWork .proudProjectsContain {
+    width: 100%;
+    margin-top: 60px; }
+    @media only screen and (min-width: 768px) {
+      .proudWork .proudProjectsContain {
+        display: flex; } }
+    .proudWork .proudProjectsContain .projectOne {
+      background-color: #38b6ff52; }
+    .proudWork .proudProjectsContain .projectTwo {
+      background-color: #fae9e952; }
+  .proudWork .proudProject:hover .mockSite img {
+    transform: scale(1.1); }
+  .proudWork .moreWorkBtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+    .proudWork .moreWorkBtn a {
+      font-size: 22px;
+      font-weight: 200;
+      color: #303030;
+      text-transform: capitalize;
+      transition: 0.4s; }
+      @media only screen and (min-width: 1920px) {
+        .proudWork .moreWorkBtn a {
+          font-size: 30px; } }
+      @media only screen and (min-width: 2560px) {
+        .proudWork .moreWorkBtn a {
+          font-size: 40px; } }
+      .proudWork .moreWorkBtn a img {
+        height: 30px;
+        width: 30px;
+        margin-left: 20px; }
+    .proudWork .moreWorkBtn a:hover {
+      color: #38b6ff; }
+
+.trstTeamContainer {
+  max-width: 100%;
+  margin-top: 60px; }
+  @media only screen and (min-width: 600px) {
+    .trstTeamContainer {
+      display: flex; } }
+  @media only screen and (min-width: 600px) {
+    .trstTeamContainer .trstedTeamText {
+      width: 50%; } }
+  .trstTeamContainer .trstedTeamText h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #303030;
+    text-transform: capitalize;
+    padding-left: 30px; }
+    @media only screen and (min-width: 1920px) {
+      .trstTeamContainer .trstedTeamText h1 {
+        font-size: 50px; } }
+    .trstTeamContainer .trstedTeamText h1 strong {
+      font-size: 40px; }
+      @media only screen and (min-width: 1920px) {
+        .trstTeamContainer .trstedTeamText h1 strong {
+          font-size: 60px; } }
+  .trstTeamContainer .trstedTeamText p {
+    font-size: 18px;
+    color: #303030bb;
+    line-height: 30px;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 30px; }
+    @media only screen and (min-width: 1920px) {
+      .trstTeamContainer .trstedTeamText p {
+        font-size: 34px;
+        line-height: 42px; } }
+  .trstTeamContainer .trstedTeamText .projectAmount {
+    margin-top: 40px; }
+    .trstTeamContainer .trstedTeamText .projectAmount p {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 1920px) {
+        .trstTeamContainer .trstedTeamText .projectAmount p {
+          font-size: 50px; } }
+      .trstTeamContainer .trstedTeamText .projectAmount p strong {
+        font-size: 60px;
+        font-weight: 500;
+        color: #38b6ff; }
+        @media only screen and (min-width: 1920px) {
+          .trstTeamContainer .trstedTeamText .projectAmount p strong {
+            font-size: 60px; } }
+  .trstTeamContainer .teamPhoto {
+    height: 300px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 15px; }
+    @media only screen and (min-width: 600px) {
+      .trstTeamContainer .teamPhoto {
+        width: 40%;
+        margin-top: 80px; } }
+    @media only screen and (min-width: 768px) {
+      .trstTeamContainer .teamPhoto {
+        margin-left: 32px; } }
+    @media only screen and (min-width: 1020px) {
+      .trstTeamContainer .teamPhoto {
+        height: 350px;
+        width: 45%;
+        margin-top: 10px; } }
+    @media only screen and (min-width: 1920px) {
+      .trstTeamContainer .teamPhoto {
+        height: 450px; } }
+    .trstTeamContainer .teamPhoto img {
+      height: 100%;
+      width: 100%; }
+
+.detailContainer {
+  max-width: 100%;
+  margin-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e3e3e3; }
+  @media only screen and (min-width: 768px) {
+    .detailContainer {
+      display: grid;
+      grid-template-columns: 350px 350px;
+      margin-top: 80px; } }
+  @media only screen and (min-width: 1020px) {
+    .detailContainer {
+      grid-template-columns: 50% 50%; } }
+  .detailContainer .columnOne {
+    margin-left: 16px;
+    margin-top: 60px; }
+    @media only screen and (min-width: 768px) {
+      .detailContainer .columnOne {
+        margin-top: 120px; } }
+    .detailContainer .columnOne img {
+      height: 200px;
+      width: 90%;
+      margin-top: 20px; }
+      @media only screen and (min-width: 600px) {
+        .detailContainer .columnOne img {
+          margin-left: 10px; } }
+      @media only screen and (min-width: 768px) {
+        .detailContainer .columnOne img {
+          height: 400px;
+          margin-left: 32px; } }
+  .detailContainer .columnTwo {
+    margin-top: 120px; }
+    @media only screen and (min-width: 768px) {
+      .detailContainer .columnTwo {
+        margin-top: 142px; } }
+    .detailContainer .columnTwo img {
+      height: 200px;
+      width: 90%;
+      margin-left: 15px; }
+      @media only screen and (min-width: 768px) {
+        .detailContainer .columnTwo img {
+          height: 200px;
+          margin-left: 32px; } }
+      @media only screen and (min-width: 1020px) {
+        .detailContainer .columnTwo img {
+          height: 300px; } }
+      @media only screen and (min-width: 1920px) {
+        .detailContainer .columnTwo img {
+          height: 500px; } }
+    .detailContainer .columnTwo .detailText {
+      margin-top: 30px; }
+      .detailContainer .columnTwo .detailText h2 {
+        font-size: 30px;
+        font-weight: 300;
+        color: #303030;
+        text-transform: capitalize;
+        padding-left: 30px; }
+        @media only screen and (max-width: 330px) {
+          .detailContainer .columnTwo .detailText h2 {
+            font-size: 26px; } }
+        @media only screen and (min-width: 1920px) {
+          .detailContainer .columnTwo .detailText h2 {
+            font-size: 40px; } }
+        .detailContainer .columnTwo .detailText h2 strong {
+          font-weight: 500;
+          font-size: 40px; }
+      .detailContainer .columnTwo .detailText p {
+        font-size: 18px;
+        color: #303030;
+        line-height: 30px;
+        width: 98%;
+        padding-top: 20px;
+        padding-left: 20px; }
+        @media only screen and (min-width: 600px) {
+          .detailContainer .columnTwo .detailText p {
+            width: 95%; } }
+        @media only screen and (min-width: 768px) {
+          .detailContainer .columnTwo .detailText p {
+            line-height: 40px; } }
+        @media only screen and (min-width: 1920px) {
+          .detailContainer .columnTwo .detailText p {
+            font-size: 32px;
+            line-height: 50px; } }
+
+.trstedByContainer {
+  max-width: 100%;
+  margin-top: 60px; }
+  .trstedByContainer h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #303030;
+    text-transform: capitalize;
+    padding-left: 30px; }
+    @media only screen and (max-width: 330px) {
+      .trstedByContainer h1 {
+        padding-left: 10px; } }
+    @media only screen and (min-width: 768px) {
+      .trstedByContainer h1 {
+        font-size: 40px; } }
+    @media only screen and (min-width: 1020px) {
+      .trstedByContainer h1 {
+        font-size: 50px; } }
+    @media only screen and (min-width: 1920px) {
+      .trstedByContainer h1 {
+        font-size: 60px; } }
+    .trstedByContainer h1 strong {
+      font-weight: 500;
+      font-size: 40px; }
+      @media only screen and (min-width: 1920px) {
+        .trstedByContainer h1 strong {
+          font-size: 60px; } }
+  .trstedByContainer .trstedLogos {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 70px; }
+    @media only screen and (max-width: 330px) {
+      .trstedByContainer .trstedLogos {
+        margin-left: 60px; } }
+    @media only screen and (min-width: 414px) {
+      .trstedByContainer .trstedLogos {
+        margin-left: 80px; } }
+    @media only screen and (min-width: 600px) {
+      .trstedByContainer .trstedLogos {
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 20px;
+        margin-left: 50px; } }
+    @media only screen and (min-width: 1020px) {
+      .trstedByContainer .trstedLogos {
+        width: 95%; } }
+    .trstedByContainer .trstedLogos img {
+      height: 70px;
+      width: 70px;
+      filter: grayscale(100%);
+      transition: 0.4s;
+      margin-top: 30px; }
+      @media only screen and (min-width: 1920px) {
+        .trstedByContainer .trstedLogos img {
+          height: 100px;
+          width: 100px; } }
+    .trstedByContainer .trstedLogos img:hover {
+      filter: grayscale(0%); }
+
+.locationMethods {
+  max-width: 100%;
+  margin-top: 60px; }
+  .locationMethods .locText h1 {
+    font-size: 30px;
+    color: #303030;
+    font-weight: 300;
+    text-transform: capitalize;
+    width: 80%;
+    padding-left: 30px; }
+    @media only screen and (max-width: 330px) {
+      .locationMethods .locText h1 {
+        font-size: 20px; } }
+    @media only screen and (min-width: 768px) {
+      .locationMethods .locText h1 {
+        font-size: 44px; } }
+    @media only screen and (min-width: 1200px) {
+      .locationMethods .locText h1 {
+        font-size: 60px; } }
+    @media only screen and (min-width: 1920px) {
+      .locationMethods .locText h1 {
+        font-size: 60px; } }
+    @media only screen and (min-width: 2560px) {
+      .locationMethods .locText h1 {
+        font-size: 80px; } }
+    .locationMethods .locText h1 strong {
+      font-size: 30px;
+      color: #303030;
+      text-transform: uppercase;
+      font-weight: 500; }
+      @media only screen and (max-width: 330px) {
+        .locationMethods .locText h1 strong {
+          font-size: 30px; } }
+      @media only screen and (min-width: 768px) {
+        .locationMethods .locText h1 strong {
+          font-size: 50px;
+          font-weight: 500; } }
+      @media only screen and (min-width: 2560px) {
+        .locationMethods .locText h1 strong {
+          font-size: 90px; } }
+  .locationMethods .conAds {
+    margin-top: 60px; }
+    .locationMethods .conAds .conLoc {
+      display: flex;
+      margin-top: 50px; }
+      .locationMethods .conAds .conLoc h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #303030;
+        text-transform: capitalize;
+        margin-left: 40px; }
+        @media only screen and (min-width: 1920px) {
+          .locationMethods .conAds .conLoc h4 {
+            font-size: 30px; } }
+        @media only screen and (min-width: 2560px) {
+          .locationMethods .conAds .conLoc h4 {
+            font-size: 40px; } }
+      .locationMethods .conAds .conLoc .conBlock p {
+        margin-top: 6px;
+        margin-left: 40px; }
+        @media only screen and (min-width: 768px) {
+          .locationMethods .conAds .conLoc .conBlock p {
+            font-size: 14px;
+            margin-left: 20px; } }
+        @media only screen and (min-width: 1920px) {
+          .locationMethods .conAds .conLoc .conBlock p {
+            font-size: 20px;
+            margin-left: 44px; } }
+        @media only screen and (min-width: 2560px) {
+          .locationMethods .conAds .conLoc .conBlock p {
+            font-size: 26px; } }
+  .locationMethods .locMapContain {
+    height: 300px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 20px; }
+    .locationMethods .locMapContain #locMap {
+      height: 100%;
+      width: 100%; }
+
+.mockupContainer {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: -70px; }
+  .mockupContainer h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #303030;
+    text-transform: capitalize;
+    margin-left: 40px; }
+    @media only screen and (min-width: 768px) {
+      .mockupContainer h2 {
+        font-size: 40px; } }
+    @media only screen and (min-width: 1920px) {
+      .mockupContainer h2 {
+        font-size: 60px; } }
+    .mockupContainer h2 strong {
+      font-size: 50;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: block; }
+      @media only screen and (min-width: 768px) {
+        .mockupContainer h2 strong {
+          display: inline; } }
+  .mockupContainer .macMockupGrid {
+    width: 100%;
+    margin-top: 80px; }
+  .mockupContainer .projectOne {
+    background-color: #b082824d; }
+  .mockupContainer .projectTwo {
+    background-color: #96ab664d; }
+  .mockupContainer .projectThree {
+    background-color: #48cbb74d; }
+  .mockupContainer .projectFour {
+    background-color: #4ea7c74d; }
+  .mockupContainer .projectFive {
+    background-color: #2d24944d; }
+  .mockupContainer .projectSix {
+    background-color: #3c11da4d; }
+  .mockupContainer .projectSeven {
+    background-color: #1734574d; }
+  .mockupContainer .projectEight {
+    background-color: #3d0fe64d; }
+  .mockupContainer .projectNine {
+    background-color: #5d0c6a4d; }
+  .mockupContainer .projectTen {
+    background-color: #0f80944d; }
+  .mockupContainer .projectEleven {
+    background-color: #0b6c264d; }
+  .mockupContainer .projectTwelve {
+    background-color: #6842084d; }
+  .mockupContainer .projectThirteen {
+    background-color: #57172f51; }
+  .mockupContainer .projectFourteen {
+    background-color: #174d574d; }
+
+.proudProject:hover .mockSite img {
+  transform: scale(1.1); }
+
+.backBtn {
+  margin-top: 60px;
+  margin-left: 190px; }
+  .backBtn a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #303030;
+    text-transform: capitalize;
+    transition: 0.4s; }
+  .backBtn a:hover {
+    color: #38b6ff; }
+
+.servicePortContain {
+  max-width: 100%; }
+  .servicePortContain .serviceDesc {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px; }
+    .servicePortContain .serviceDesc .portIcon {
+      height: 200px;
+      width: 75%; }
+      .servicePortContain .serviceDesc .portIcon img {
+        height: 100%;
+        width: 100%; }
+    .servicePortContain .serviceDesc .servText {
+      margin-top: 40px; }
+      .servicePortContain .serviceDesc .servText h1 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #303030;
+        text-transform: capitalize; }
+      .servicePortContain .serviceDesc .servText p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #303030;
+        line-height: 34px;
+        padding-top: 20px; }
+
+.projectDescContainer {
+  max-width: 100%;
+  margin-top: 80px; }
+  .projectDescContainer .projectText {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px; }
+    .projectDescContainer .projectText h2 {
+      font-size: 40px;
+      font-weight: 500;
+      color: #303030;
+      text-transform: capitalize;
+      padding-top: 40px; }
+    .projectDescContainer .projectText p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #303030;
+      line-height: 34px;
+      padding-top: 20px; }
+  .projectDescContainer .wrktimeTitle {
+    display: flex;
+    width: 100%;
+    margin-top: 20px; }
+    .projectDescContainer .wrktimeTitle .title {
+      font-size: 20px;
+      font-weight: 400; }
+    .projectDescContainer .wrktimeTitle .titleTwo {
+      margin-left: 40px; }
+  .projectDescContainer .wrkTime {
+    display: flex; }
+    .projectDescContainer .wrkTime .time {
+      font-size: 18px;
+      font-weight: lighter;
+      color: #303030af; }
+    .projectDescContainer .wrkTime .timeTwo {
+      margin-left: 30px; }
+
+.macbookMockContainer {
+  height: auto;
+  width: 100%;
+  margin-top: 40px; }
+
+.visitSiteBtn {
+  width: 70%;
+  margin: 40px 0 40px 40px; }
+  .visitSiteBtn a {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #303030;
+    transition: 0.4s;
+    z-index: 99; }
+
+.visitSiteBtn:hover a {
+  color: #38b6ff; }
+
+.ExtraSpace {
+  height: 50px;
+  width: 100%; }
+
+.backgroundOne {
+  background-color: #b082824d; }
+
+.backgroundTwo {
+  background-color: #96ab664d; }
+
+.backgroundThree {
+  background-color: #48cbb74d; }
+
+.backgroundFour {
+  background-color: #4ea7c74d; }
+
+.backgroundFive {
+  background-color: #2d24944d; }
+
+.backgroundSix {
+  background-color: #3c11da4d; }
+
+.backgroundSeven {
+  background-color: #1734574d; }
+
+.backgroundEight {
+  background-color: #3d0fe64d; }
+
+.backgroundNine {
+  background-color: #5d0c6a4d; }
+
+.backgroundTen {
+  background-color: #0f80944d; }
+
+.backgroundEleven {
+  background-color: #0b6c264d; }
+
+.backgroundTwelve {
+  background-color: #6842084d; }
+
+.backgroundThirteen {
+  background-color: #57172f51; }
+
+.backgroundFourteen {
+  background-color: #174d574d; }
+
+.mainHeader {
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99; }
+  @media only screen and (min-width: 768px) {
+    .mainHeader {
+      background-color: transparent; } }
+  .mainHeader .mainMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .mainHeader .mainMenu .headLogo {
+      height: 60px;
+      width: 18%; }
+      @media only screen and (min-width: 768px) {
+        .mainHeader .mainMenu .headLogo {
+          margin-left: 40px;
+          height: 80px; } }
+      @media only screen and (min-width: 1020px) {
+        .mainHeader .mainMenu .headLogo {
+          height: 90px;
+          width: 15%; } }
+      @media only screen and (min-width: 1920px) {
+        .mainHeader .mainMenu .headLogo {
+          height: 120px; } }
+      @media only screen and (min-width: 2560px) {
+        .mainHeader .mainMenu .headLogo {
+          height: 160px; } }
+      .mainHeader .mainMenu .headLogo img {
+        height: 100%;
+        width: 100%; }
+    .mainHeader .mainMenu .opnBars {
+      height: 50px;
+      width: 60px;
+      padding: 14px;
+      cursor: pointer;
+      transition: 0.4s;
+      margin-top: 6px;
+      margin-right: 20px;
+      border-radius: 50%; }
+      @media only screen and (min-width: 414px) {
+        .mainHeader .mainMenu .opnBars {
+          height: 52px; } }
+      @media only screen and (min-width: 768px) {
+        .mainHeader .mainMenu .opnBars {
+          margin-right: 40px; } }
+      @media only screen and (min-width: 1020px) {
+        .mainHeader .mainMenu .opnBars {
+          height: 60px;
+          padding-top: 18px; } }
+      .mainHeader .mainMenu .opnBars .bar {
+        height: 2px;
+        width: 80%;
+        background-color: #f7f7f7;
+        margin-left: 4px;
+        transition: 0.6s;
+        margin-top: 4px; }
+        @media only screen and (min-width: 768px) {
+          .mainHeader .mainMenu .opnBars .bar {
+            background-color: #f7f7f7; } }
+        @media only screen and (min-width: 1920px) {
+          .mainHeader .mainMenu .opnBars .bar {
+            margin-top: 6px; } }
+        @media only screen and (min-width: 2560px) {
+          .mainHeader .mainMenu .opnBars .bar {
+            margin-top: 16px; } }
+      .mainHeader .mainMenu .opnBars .barThree {
+        width: 50%; }
+    .mainHeader .mainMenu .opnBars:hover {
+      border-radius: 50%;
+      background-color: #38b6ff; }
+      .mainHeader .mainMenu .opnBars:hover .bar {
+        background-color: white; }
+      .mainHeader .mainMenu .opnBars:hover .barThree {
+        width: 80%; }
+  .mainHeader .mainNav {
+    height: 100vh;
+    width: 100%;
+    background-color: #f7f7f7;
+    transform: scale(0);
+    opacity: 0.8;
+    position: absolute;
+    transition: 0.6s; }
+    .mainHeader .mainNav .closeBtn {
+      width: 100%;
+      cursor: pointer;
+      transition: 0.4s; }
+      .mainHeader .mainNav .closeBtn h2 {
+        font-size: 30px;
+        font-weight: lighter;
+        color: #303030a8;
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 20px; }
+        @media only screen and (min-width: 768px) {
+          .mainHeader .mainNav .closeBtn h2 {
+            font-size: 50px; } }
+    .mainHeader .mainNav .closeBtn:hover h2 {
+      color: #38b6ff; }
+    .mainHeader .mainNav .menuLinks {
+      height: auto;
+      width: 90%; }
+      .mainHeader .mainNav .menuLinks ul {
+        margin-top: 40px; }
+        .mainHeader .mainNav .menuLinks ul li {
+          margin-top: 30px; }
+          @media only screen and (min-width: 768px) {
+            .mainHeader .mainNav .menuLinks ul li {
+              margin-top: 60px; } }
+          @media only screen and (min-width: 1020px) {
+            .mainHeader .mainNav .menuLinks ul li {
+              margin-top: 30px; } }
+          .mainHeader .mainNav .menuLinks ul li .currentPage {
+            color: #38b6ff; }
+          .mainHeader .mainNav .menuLinks ul li a {
+            font-size: 30px;
+            font-weight: lighter;
+            text-transform: uppercase;
+            padding-left: 40px;
+            color: #303030;
+            transition: 0.4s; }
+            @media only screen and (min-width: 1020px) {
+              .mainHeader .mainNav .menuLinks ul li a {
+                font-size: 30px; } }
+          .mainHeader .mainNav .menuLinks ul li a:hover {
+            color: #38b6ff; }
+      .mainHeader .mainNav .menuLinks .headSocLinks {
+        height: 34px;
+        width: 25%;
+        margin-top: 70px;
+        margin-left: 28px; }
+        @media only screen and (min-width: 768px) {
+          .mainHeader .mainNav .menuLinks .headSocLinks {
+            height: 26px;
+            width: 22%; } }
+        @media only screen and (min-width: 1020px) {
+          .mainHeader .mainNav .menuLinks .headSocLinks {
+            width: 18%; } }
+        .mainHeader .mainNav .menuLinks .headSocLinks img {
+          height: 100%;
+          width: 50%;
+          padding-left: 12px; }
+
+.ourSpecialty {
+  max-width: 100%;
+  border-top: 1px solid #30303052;
+  margin-top: 30px; }
+  .ourSpecialty .specialtiesContainer {
+    width: 100%;
+    padding-top: 80px; }
+    @media only screen and (min-width: 768px) {
+      .ourSpecialty .specialtiesContainer {
+        display: grid;
+        grid-template-columns: auto auto; } }
+    @media only screen and (min-width: 1020px) {
+      .ourSpecialty .specialtiesContainer {
+        display: grid;
+        grid-template-columns: auto auto auto; } }
+    .ourSpecialty .specialtiesContainer .ourSpecTitle {
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center; }
+      @media only screen and (min-width: 768px) {
+        .ourSpecialty .specialtiesContainer .ourSpecTitle {
+          width: 50%;
+          margin-top: 60px;
+          margin-left: 40px; } }
+      @media only screen and (min-width: 1020px) {
+        .ourSpecialty .specialtiesContainer .ourSpecTitle {
+          font-size: 30px;
+          width: 100%;
+          margin-left: 0px; } }
+      @media only screen and (min-width: 1920px) {
+        .ourSpecialty .specialtiesContainer .ourSpecTitle {
+          font-size: 46px; } }
+      @media only screen and (min-width: 2560px) {
+        .ourSpecialty .specialtiesContainer .ourSpecTitle {
+          font-size: 50px; } }
+    .ourSpecialty .specialtiesContainer .spec {
+      width: 90%;
+      margin-top: 60px;
+      margin-left: 20px; }
+      .ourSpecialty .specialtiesContainer .spec .specIcon {
+        width: 30%;
+        margin-left: 120px; }
+        @media only screen and (max-width: 330px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 100px; } }
+        @media only screen and (min-width: 414px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 150px; } }
+        @media only screen and (min-width: 1020px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 100px; } }
+        @media only screen and (min-width: 600px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 220px; } }
+        @media only screen and (min-width: 768px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 120px; } }
+        @media only screen and (min-width: 1200px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 130px; } }
+        @media only screen and (min-width: 1440px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 170px; } }
+        @media only screen and (min-width: 1920px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 200px; } }
+        @media only screen and (min-width: 2560px) {
+          .ourSpecialty .specialtiesContainer .spec .specIcon {
+            margin-left: 290px; } }
+        .ourSpecialty .specialtiesContainer .spec .specIcon img {
+          height: 90px;
+          width: 90px; }
+          @media only screen and (min-width: 1920px) {
+            .ourSpecialty .specialtiesContainer .spec .specIcon img {
+              height: 100px;
+              width: 100px; } }
+      .ourSpecialty .specialtiesContainer .spec .specialtyName {
+        text-align: center;
+        margin-top: 6px; }
+        .ourSpecialty .specialtiesContainer .spec .specialtyName a {
+          font-size: 20px;
+          font-weight: 500;
+          color: #303030;
+          text-transform: capitalize;
+          transition: 0.4s; }
+          @media only screen and (min-width: 1920px) {
+            .ourSpecialty .specialtiesContainer .spec .specialtyName a {
+              font-size: 30px; } }
+          @media only screen and (min-width: 2560px) {
+            .ourSpecialty .specialtiesContainer .spec .specialtyName a {
+              font-size: 40px; } }
+          .ourSpecialty .specialtiesContainer .spec .specialtyName a img {
+            height: 20px;
+            width: 20px;
+            margin-left: 20px; }
+            @media only screen and (min-width: 2560px) {
+              .ourSpecialty .specialtiesContainer .spec .specialtyName a img {
+                height: 30px;
+                width: 30px; } }
+      .ourSpecialty .specialtiesContainer .spec .specialtyDesc {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 26px;
+        margin-top: 10px; }
+        @media only screen and (min-width: 1920px) {
+          .ourSpecialty .specialtiesContainer .spec .specialtyDesc {
+            font-size: 26px;
+            line-height: 32px; } }
+        @media only screen and (min-width: 2560px) {
+          .ourSpecialty .specialtiesContainer .spec .specialtyDesc {
+            font-size: 34px;
+            line-height: 38px; } }
+    .ourSpecialty .specialtiesContainer .spec:hover .specialtyName a {
+      color: #38b6ff; }
+
+.proudProject {
+  max-width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden; }
+  @media only screen and (min-width: 1020px) {
+    .proudProject {
+      height: 230px; } }
+  @media only screen and (min-width: 1440px) {
+    .proudProject {
+      height: 400px; } }
+  @media only screen and (min-width: 1920px) {
+    .proudProject {
+      height: 500px; } }
+  @media only screen and (min-width: 2560px) {
+    .proudProject {
+      height: 600px; } }
+  .proudProject .projectTitle {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 40px; }
+    @media only screen and (min-width: 1920px) {
+      .proudProject .projectTitle {
+        padding-top: 70px; } }
+    .proudProject .projectTitle a,
+    .proudProject .projectTitle h3 {
+      color: #303030;
+      font-size: 26px;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 1440px) {
+        .proudProject .projectTitle a,
+        .proudProject .projectTitle h3 {
+          font-size: 36px;
+          padding-top: 100px; } }
+      @media only screen and (min-width: 2560px) {
+        .proudProject .projectTitle a,
+        .proudProject .projectTitle h3 {
+          font-size: 60px;
+          padding-top: 100px; } }
+      @media only screen and (min-width: 768px) {
+        .proudProject .projectTitle a,
+        .proudProject .projectTitle h3 {
+          font-size: 40px; } }
+      @media only screen and (min-width: 1920px) {
+        .proudProject .projectTitle a,
+        .proudProject .projectTitle h3 {
+          font-size: 60px; } }
+      .proudProject .projectTitle a .projectView,
+      .proudProject .projectTitle h3 .projectView {
+        height: 30px;
+        width: 30px;
+        transform: scale(1.1); }
+        @media only screen and (min-width: 2560px) {
+          .proudProject .projectTitle a .projectView,
+          .proudProject .projectTitle h3 .projectView {
+            height: 50px;
+            width: 50px; } }
+        .proudProject .projectTitle a .projectView img,
+        .proudProject .projectTitle h3 .projectView img {
+          height: 100%;
+          width: 100%; }
+
+.projectOne {
+  background-color: #b082824d; }
+
+.projectTwo {
+  background-color: #96ab664d; }
+
+.projectThree {
+  background-color: #48cbb74d; }
+
+.projectFour {
+  background-color: #4ea7c74d; }
+
+.projectFive {
+  background-color: #2d24944d; }
+
+.projectSix {
+  background-color: #3c11da4d; }
+
+.projectSeven {
+  background-color: #1734574d; }
+
+.projectEight {
+  background-color: #3d0fe64d; }
+
+.projectNine {
+  background-color: #5d0c6a4d; }
+
+.projectTen {
+  background-color: #0f80944d; }
+
+.projectEleven {
+  background-color: #0b6c264d; }
+
+.projectTwelve {
+  background-color: #6842084d; }
+
+.projectThirteen {
+  background-color: #57172f51; }
+
+.projectFourteen {
+  background-color: #174d574d; }
+
+.proudProject:hover .mockSite img {
+  transform: scale(1.1); }
+
+.getStarted {
+  background: linear-gradient(to right, #30303086, #30303086), url(/src/imgs/formShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
+  padding-top: 60px;
+  margin-top: 60px; }
+  .getStarted .getStartedTitle {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize; }
+    @media only screen and (min-width: 1920px) {
+      .getStarted .getStartedTitle {
+        font-size: 50px; } }
+    @media only screen and (min-width: 2560px) {
+      .getStarted .getStartedTitle {
+        font-size: 60px; } }
+  .getStarted .getStartedForm {
+    max-width: 100%;
+    margin-left: 40px; }
+    @media only screen and (min-width: 1020px) {
+      .getStarted .getStartedForm {
+        margin-left: 180px; } }
+    @media only screen and (min-width: 2560px) {
+      .getStarted .getStartedForm {
+        margin-left: 360px; } }
+    .getStarted .getStartedForm .formInput {
+      margin-top: 20px; }
+      .getStarted .getStartedForm .formInput .inputLabel {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #f7f7f7c9;
+        text-transform: capitalize; }
+        @media only screen and (min-width: 1920px) {
+          .getStarted .getStartedForm .formInput .inputLabel {
+            font-size: 30px; } }
+        @media only screen and (min-width: 2560px) {
+          .getStarted .getStartedForm .formInput .inputLabel {
+            font-size: 40px; } }
+      .getStarted .getStartedForm .formInput input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #f7f7f769;
+        display: block;
+        height: 20px;
+        width: 90%;
+        color: #f7f7f7;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 20px; }
+        @media only screen and (min-width: 1020px) {
+          .getStarted .getStartedForm .formInput input {
+            width: 80%;
+            height: 40px;
+            font-size: 20px; } }
+        @media only screen and (min-width: 1920px) {
+          .getStarted .getStartedForm .formInput input {
+            font-size: 30px; } }
+        @media only screen and (min-width: 2560px) {
+          .getStarted .getStartedForm .formInput input {
+            font-size: 50px; } }
+    .getStarted .getStartedForm .formSubmit {
+      background: none;
+      color: #f7f7f7;
+      font-size: 18px;
+      width: 120px;
+      padding: 10px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      transition: 0.4s; }
+      @media only screen and (min-width: 1920px) {
+        .getStarted .getStartedForm .formSubmit {
+          font-size: 22px; } }
+      @media only screen and (min-width: 2560px) {
+        .getStarted .getStartedForm .formSubmit {
+          font-size: 34px;
+          padding: 16px; } }
+    .getStarted .getStartedForm .formSubmit:hover {
+      background-color: #38b6ff; }
+
+.globalFooter {
+  max-width: 100%; }
+
+.footerContent {
+  width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .footerContent {
+      display: flex;
+      justify-content: space-between; } }
+  @media only screen and (min-width: 768px) {
+    .footerContent .footerLocations {
+      display: flex; } }
+  .footerContent .footerLocations .footLoc {
+    margin-left: 20px;
+    margin-top: 40px; }
+    .footerContent .footerLocations .footLoc h4 {
+      font-size: 18px;
+      font-weight: lighter;
+      color: #303030;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 1920px) {
+        .footerContent .footerLocations .footLoc h4 {
+          font-size: 30px; } }
+      @media only screen and (min-width: 2560px) {
+        .footerContent .footerLocations .footLoc h4 {
+          font-size: 40px; } }
+      .footerContent .footerLocations .footLoc h4 img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px; }
+        @media only screen and (min-width: 768px) {
+          .footerContent .footerLocations .footLoc h4 img {
+            height: 20px;
+            width: 20px; } }
+        @media only screen and (min-width: 1920px) {
+          .footerContent .footerLocations .footLoc h4 img {
+            height: 40px;
+            width: 40px; } }
+    .footerContent .footerLocations .footLoc p {
+      margin-top: 6px;
+      margin-left: 40px; }
+      @media only screen and (min-width: 768px) {
+        .footerContent .footerLocations .footLoc p {
+          font-size: 14px;
+          margin-left: 20px; } }
+      @media only screen and (min-width: 1920px) {
+        .footerContent .footerLocations .footLoc p {
+          font-size: 20px;
+          margin-left: 44px; } }
+      @media only screen and (min-width: 2560px) {
+        .footerContent .footerLocations .footLoc p {
+          font-size: 26px; } }
+  .footerContent .footConnect {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 60px; }
+    @media only screen and (min-width: 768px) {
+      .footerContent .footConnect {
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 40px; } }
+    .footerContent .footConnect .footLogo {
+      font-size: 30px;
+      font-weight: lighter;
+      color: #38b6ff;
+      text-transform: capitalize; }
+      @media only screen and (min-width: 768px) {
+        .footerContent .footConnect .footLogo {
+          font-size: 24px; } }
+      @media only screen and (min-width: 1920px) {
+        .footerContent .footConnect .footLogo {
+          font-size: 30px; } }
+      @media only screen and (min-width: 2560px) {
+        .footerContent .footConnect .footLogo {
+          font-size: 40px; } }
+    .footerContent .footConnect .footsocLinks {
+      max-width: 100%;
+      margin-top: 30px; }
+      .footerContent .footConnect .footsocLinks p {
+        font-size: 20px;
+        font-weight: lighter;
+        text-transform: capitalize;
+        color: #303030; }
+        @media only screen and (min-width: 1920px) {
+          .footerContent .footConnect .footsocLinks p {
+            font-size: 24px; } }
+        @media only screen and (min-width: 2560px) {
+          .footerContent .footConnect .footsocLinks p {
+            font-size: 30px; } }
+        .footerContent .footConnect .footsocLinks p img {
+          height: 30px;
+          width: 30px;
+          margin-left: 10px; }
+          @media only screen and (min-width: 768px) {
+            .footerContent .footConnect .footsocLinks p img {
+              height: 20px;
+              width: 20px; } }
+          @media only screen and (min-width: 1920px) {
+            .footerContent .footConnect .footsocLinks p img {
+              height: 40px;
+              width: 30px; } }
+          @media only screen and (min-width: 2560px) {
+            .footerContent .footConnect .footsocLinks p img {
+              height: 50px;
+              width: 50px; } }
+
+.copyrights {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin: 50px 0 40px 60px; }
+  @media only screen and (min-width: 768px) {
+    .copyrights {
+      margin-left: 20px; } }
+  @media only screen and (min-width: 1920px) {
+    .copyrights {
+      font-size: 20px; } }
+  @media only screen and (min-width: 2560px) {
+    .copyrights {
+      font-size: 26px; } }
+
+.relatedWorkContainer {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: -70px; }
+  .relatedWorkContainer h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #303030;
+    text-transform: capitalize;
+    margin-left: 40px; }
+    .relatedWorkContainer h2 strong {
+      font-size: 50;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: block; }
+  .relatedWorkContainer .relatedProjects {
+    width: 100%;
+    margin-top: 40px; }
+
+.macBookMock {
+  height: 60%;
+  width: 44%;
+  transform: scale(1.3);
+  margin-top: 40px; }
+  @media only screen and (min-width: 768px) {
+    .macBookMock {
+      height: 84%;
+      width: 54%; } }
+  @media only screen and (min-width: 1920px) {
+    .macBookMock {
+      margin-top: 70px; } }
+
+.mockSite {
+  height: 85px;
+  width: 138.5px;
+  position: absolute;
+  margin-left: 101px;
+  margin-top: 50px;
+  transform: scale(0.9);
+  overflow: hidden; }
+  @media only screen and (min-width: 414px) {
+    .mockSite {
+      width: 183px;
+      margin-left: 86px; } }
+  @media only screen and (min-width: 600px) {
+    .mockSite {
+      width: 225px;
+      margin-left: 157px; } }
+  @media only screen and (min-width: 768px) {
+    .mockSite {
+      height: 136px;
+      margin-left: 181.8px;
+      margin-top: 46px;
+      width: 390px;
+      transform: scale(0.8); } }
+  @media only screen and (min-width: 1020px) {
+    .mockSite {
+      height: 136px;
+      margin-left: 237.8px;
+      margin-top: 53px;
+      width: 512px; } }
+  @media only screen and (min-width: 1200px) {
+    .mockSite {
+      height: 150px;
+      margin-left: 279.8px;
+      margin-top: 51px;
+      width: 601px; } }
+  @media only screen and (min-width: 1440px) {
+    .mockSite {
+      height: 268px;
+      margin-left: 335.8px;
+      margin-top: 54px;
+      width: 719px; } }
+  @media only screen and (min-width: 1920px) {
+    .mockSite {
+      height: 332px;
+      margin-left: 447.8px;
+      margin-top: 90px;
+      width: 967px; } }
+  @media only screen and (min-width: 2560px) {
+    .mockSite {
+      height: 402px;
+      margin-left: 623.8px;
+      margin-top: 91px;
+      width: 1237px; } }
+  .mockSite img {
+    height: 100%;
+    width: 100%;
+    transition: 0.4s; }
+
+.medImgContainer {
+  height: 100%;
+  width: 100%; }
+  .medImgContainer .medmacBookMock {
+    height: 90%;
+    width: 80%;
+    transform: scale(1.3);
+    margin-top: 20px;
+    padding-left: 43px; }
+    @media only screen and (min-width: 768px) {
+      .medImgContainer .medmacBookMock {
+        height: 84%;
+        width: 54%; } }
+    @media only screen and (min-width: 1920px) {
+      .medImgContainer .medmacBookMock {
+        margin-top: 70px; } }
+  .medImgContainer .medmockSite {
+    height: 130px;
+    width: 220px;
+    margin-top: -180px;
+    margin-left: 74px;
+    transform: scale(0.9);
+    overflow: hidden; }
+    @media only screen and (min-width: 414px) {
+      .medImgContainer .medmockSite {
+        width: 183px;
+        margin-left: 86px; } }
+    @media only screen and (min-width: 768px) {
+      .medImgContainer .medmockSite {
+        height: 142px;
+        margin-left: 72.8px;
+        margin-top: 24px;
+        width: 210px;
+        transform: scale(0.8); } }
+    .medImgContainer .medmockSite img {
+      height: 100%;
+      width: 100%;
+      transition: 0.4s; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif; }
+
+html,
+body {
+  scroll-behavior: smooth; }
+
+#toTopBtn {
+  height: 60px;
+  width: 70px;
+  padding: 12px;
+  background-color: #38b6ff;
+  position: fixed;
+  z-index: 99;
+  right: 16px;
+  bottom: 20px;
+  display: none;
+  transition: 0.4s;
+  cursor: pointer; }
+  #toTopBtn h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #f7f7f7;
+    font-weight: lighter;
+    text-align: center; }
+
+/*# sourceMappingURL=app.css.map */

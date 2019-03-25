@@ -1,0 +1,141 @@
+.globalFooter {
+  max-width: 100%;
+}
+.footerContent {
+  width: 100%;
+  //Responsive
+  @include Tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerLocations {
+    //Responsive
+    @include Tablet {
+      display: flex;
+    }
+    .footLoc {
+      margin-left: 20px;
+      margin-top: 40px;
+      h4 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #303030;
+        text-transform: capitalize;
+        //Responsive
+        @include Desktop {
+          font-size: 30px;
+        }
+        @include lgDesktop {
+          font-size: 40px;
+        }
+        img {
+          height: 30px;
+          width: 30px;
+          margin-right: 10px;
+          //Responsive
+          @include Tablet {
+            height: 20px;
+            width: 20px;
+          }
+          @include Desktop {
+            height: 40px;
+            width: 40px;
+          }
+        }
+      }
+      p {
+        margin-top: 6px;
+        margin-left: 40px;
+        //Responsive
+        @include Tablet {
+          font-size: 14px;
+          margin-left: 20px;
+        }
+        @include Desktop {
+          font-size: 20px;
+          margin-left: 44px;
+        }
+        @include lgDesktop {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  .footConnect {
+    max-width: 100%;
+    margin-top: 70px;
+    margin-left: 60px;
+    //Responsive
+    @include Tablet {
+      margin-top: 40px;
+      margin-left: 0px;
+      margin-right: 40px;
+    }
+    .footLogo {
+      font-size: 30px;
+      font-weight: lighter;
+      color: #38b6ff;
+      text-transform: capitalize;
+      //Responsive
+      @include Tablet {
+        font-size: 24px;
+      }
+      @include Desktop {
+        font-size: 30px;
+      }
+      @include lgDesktop {
+        font-size: 40px;
+      }
+    }
+    .footsocLinks {
+      max-width: 100%;
+      margin-top: 30px;
+      p {
+        font-size: 20px;
+        font-weight: lighter;
+        text-transform: capitalize;
+        color: #303030;
+        //Responsive
+        @include Desktop {
+          font-size: 24px;
+        }
+        @include lgDesktop {
+          font-size: 30px;
+        }
+        img {
+          height: 30px;
+          width: 30px;
+          margin-left: 10px;
+          //Responsive
+          @include Tablet {
+            height: 20px;
+            width: 20px;
+          }
+          @include Desktop {
+            height: 40px;
+            width: 30px;
+          }
+          @include lgDesktop {
+            height: 50px;
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+.copyrights {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin: 50px 0 40px 60px;
+  //Responsive
+  @include Tablet {
+    margin-left: 20px;
+  }
+  @include Desktop {
+    font-size: 20px;
+  }
+  @include lgDesktop {
+    font-size: 26px;
+  }
+}
