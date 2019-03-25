@@ -1,0 +1,46 @@
+.backBtn {
+  margin-top: 60px;
+  margin-left: 190px;
+  a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #303030;
+    text-transform: capitalize;
+    transition: 0.4s;
+  }
+  a:hover {
+    color: #38b6ff;
+  }
+}
+.servicePortContain {
+  max-width: 100%;
+  .serviceDesc {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+    .portIcon {
+      height: 200px;
+      width: 75%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .servText {
+      margin-top: 40px;
+      h1 {
+        font-size: 30px;
+        font-weight: 400;
+        color: #303030;
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        color: #303030;
+        line-height: 34px;
+        padding-top: 20px;
+      }
+    }
+  }
+}

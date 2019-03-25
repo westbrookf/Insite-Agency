@@ -1,0 +1,97 @@
+.getStarted {
+  background: linear-gradient(to right, #30303086, #30303086),
+    url(/src/imgs/formShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  max-width: 100%;
+  padding-top: 60px;
+  margin-top: 60px;
+  .getStartedTitle {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    //Responsive
+    @include Desktop {
+      font-size: 50px;
+    }
+    @include lgDesktop {
+      font-size: 60px;
+    }
+  }
+  .getStartedForm {
+    max-width: 100%;
+    margin-left: 40px;
+    //Responsive
+    @include Laptop {
+      margin-left: 180px;
+    }
+    @include lgDesktop {
+      margin-left: 360px;
+    }
+    .formInput {
+      margin-top: 20px;
+      .inputLabel {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #f7f7f7c9;
+        text-transform: capitalize;
+        //Responsive
+        @include Desktop {
+          font-size: 30px;
+        }
+        @include lgDesktop {
+          font-size: 40px;
+        }
+      }
+      input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid #f7f7f769;
+        display: block;
+        height: 20px;
+        width: 90%;
+        color: #f7f7f7;
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 20px;
+        //Responsive
+        @include Laptop {
+          width: 80%;
+          height: 40px;
+          font-size: 20px;
+        }
+        @include Desktop {
+          font-size: 30px;
+        }
+        @include lgDesktop {
+          font-size: 50px;
+        }
+      }
+    }
+    .formSubmit {
+      background: none;
+      color: #f7f7f7;
+      font-size: 18px;
+      width: 120px;
+      padding: 10px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      transition: 0.4s;
+      //Responsive
+      @include Desktop {
+        font-size: 22px;
+      }
+      @include lgDesktop {
+        font-size: 34px;
+        padding: 16px;
+      }
+    }
+    .formSubmit:hover {
+      background-color: #38b6ff;
+    }
+  }
+}

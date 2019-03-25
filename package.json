@@ -1,0 +1,23 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "delpoy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westbrookf/Insite-Agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/westbrookf/Insite-Agency/issues"
+  },
+  "homepage": "https://westbrookf.github.io/Insite-Agency",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
