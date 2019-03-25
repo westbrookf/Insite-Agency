@@ -1,0 +1,96 @@
+.locationMethods {
+  max-width: 100%;
+  margin-top: 60px;
+  .locText {
+    h1 {
+      font-size: 30px;
+      color: #303030;
+      font-weight: 300;
+      text-transform: capitalize;
+      width: 80%;
+      padding-left: 30px;
+      //Responsive
+      @include smMobile {
+        font-size: 20px;
+      }
+      @include Tablet {
+        font-size: 44px;
+      }
+      @include laptopBreakpoint {
+        font-size: 60px;
+      }
+      @include Desktop {
+        font-size: 60px;
+      }
+      @include lgDesktop {
+        font-size: 80px;
+      }
+      strong {
+        font-size: 30px;
+        color: #303030;
+        text-transform: uppercase;
+        font-weight: 500;
+        //Responsive
+        @include smMobile {
+          font-size: 30px;
+        }
+        @include Tablet {
+          font-size: 50px;
+          font-weight: 500;
+        }
+        @include lgDesktop {
+          font-size: 90px;
+        }
+      }
+    }
+  }
+  .conAds {
+    margin-top: 60px;
+    .conLoc {
+      display: flex;
+      margin-top: 50px;
+      h4 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #303030;
+        text-transform: capitalize;
+        margin-left: 40px;
+        //Responsive
+        @include Desktop {
+          font-size: 30px;
+        }
+        @include lgDesktop {
+          font-size: 40px;
+        }
+      }
+      .conBlock {
+        p {
+          margin-top: 6px;
+          margin-left: 40px;
+          //Responsive
+          @include Tablet {
+            font-size: 14px;
+            margin-left: 20px;
+          }
+          @include Desktop {
+            font-size: 20px;
+            margin-left: 44px;
+          }
+          @include lgDesktop {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+  .locMapContain {
+    height: 300px;
+    width: 90%;
+    margin-top: 60px;
+    margin-left: 20px;
+    #locMap {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

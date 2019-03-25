@@ -1,0 +1,114 @@
+.projectDescContainer {
+  max-width: 100%;
+  margin-top: 80px;
+  .projectText {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+    h2 {
+      font-size: 40px;
+      font-weight: 500;
+      color: #303030;
+      text-transform: capitalize;
+      padding-top: 40px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      color: #303030;
+      line-height: 34px;
+      padding-top: 20px;
+    }
+  }
+  .wrktimeTitle {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    .title {
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .titleTwo {
+      margin-left: 40px;
+    }
+  }
+  .wrkTime {
+    display: flex;
+    .time {
+      font-size: 18px;
+      font-weight: lighter;
+      color: #303030af;
+    }
+    .timeTwo {
+      margin-left: 30px;
+    }
+  }
+}
+.macbookMockContainer {
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+}
+.visitSiteBtn {
+  width: 70%;
+  margin: 40px 0 40px 40px;
+  a {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #303030;
+    transition: 0.4s;
+    z-index: 99;
+  }
+}
+.visitSiteBtn:hover {
+  a {
+    color: #38b6ff;
+  }
+}
+.ExtraSpace {
+  height: 50px;
+  width: 100%;
+}
+.backgroundOne {
+  background-color: #b082824d;
+}
+.backgroundTwo {
+  background-color: #96ab664d;
+}
+.backgroundThree {
+  background-color: #48cbb74d;
+}
+.backgroundFour {
+  background-color: #4ea7c74d;
+}
+.backgroundFive {
+  background-color: #2d24944d;
+}
+.backgroundSix {
+  background-color: #3c11da4d;
+}
+.backgroundSeven {
+  background-color: #1734574d;
+}
+.backgroundEight {
+  background-color: #3d0fe64d;
+}
+.backgroundNine {
+  background-color: #5d0c6a4d;
+}
+.backgroundTen {
+  background-color: #0f80944d;
+}
+.backgroundEleven {
+  background-color: #0b6c264d;
+}
+.backgroundTwelve {
+  background-color: #6842084d;
+}
+.backgroundThirteen {
+  background-color: #57172f51;
+}
+.backgroundFourteen {
+  background-color: #174d574d;
+}

@@ -1,0 +1,39 @@
+@import "2-mixins/0-mixinsDir.scss";
+@import "0-layout/0-layoutDir.scss";
+@import "3-modules/0-modulesDir.scss";
+@import "1-variables/0-variablesDir.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+#toTopBtn {
+  height: 60px;
+  width: 70px;
+  padding: 12px;
+  background-color: #38b6ff;
+  position: fixed;
+  z-index: 99;
+  right: 16px;
+  bottom: 20px;
+  display: none;
+  transition: 0.4s;
+  cursor: pointer;
+  h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #f7f7f7;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
