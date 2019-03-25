@@ -1,0 +1,253 @@
+.mainshowCase {
+  background: linear-gradient(to right, #30303082, #30303082),
+    url(/src/imgs/mainShowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  max-width: 100%;
+  padding-top: 120px;
+  margin-top: -120px;
+  //Responsive
+  @include Tablet {
+    margin-top: -120px;
+    padding-top: 260px;
+    height: 100vh;
+  }
+  @include Laptop {
+    padding-top: 200px;
+  }
+  @include laptopBreakpoint {
+    padding-top: 360px;
+  }
+  @include Desktop {
+    height: 120vh;
+  }
+  @include lgDesktop {
+    margin-top: -160px;
+  }
+  .welcomeMes {
+    height: auto;
+    width: 80%;
+    // border-bottom: 1px solid #f7f7f7;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 150px;
+    //Responsive
+    @include smMobile {
+      padding-top: 70px;
+    }
+    @include Tablet {
+      margin-left: 100px;
+      width: 60%;
+    }
+    @include Laptop {
+      width: 47%;
+      padding-top: 170px;
+    }
+    @include laptopBreakpoint {
+      padding-top: 110px;
+    }
+    @include Desktop {
+      padding-top: 160px;
+    }
+    @include lgDesktop {
+      padding-top: 400px;
+    }
+    h3 {
+      font-size: 30px;
+      color: #f7f7f7;
+      font-weight: lighter;
+      //Responsive
+      @include smMobile {
+        font-size: 20px;
+      }
+      @include Tablet {
+        font-size: 44px;
+      }
+      @include laptopBreakpoint {
+        font-size: 60px;
+      }
+      @include Desktop {
+        font-size: 60px;
+      }
+      @include lgDesktop {
+        font-size: 80px;
+      }
+      strong {
+        font-size: 30px;
+        color: #38b6ff;
+        text-transform: uppercase;
+        font-weight: 300;
+        //Responsive
+        @include smMobile {
+          font-size: 30px;
+        }
+        @include Tablet {
+          font-size: 50px;
+          font-weight: 500;
+        }
+        @include lgDesktop {
+          font-size: 90px;
+        }
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: lighter;
+      color: #f7f7f7;
+      margin-top: 4px;
+      //Responsive
+      @include smMobile {
+        font-size: 18px;
+      }
+      @include Laptop {
+        font-size: 30px;
+      }
+      @include laptopBreakpoint {
+        font-size: 34px;
+      }
+      @include lgDesktop {
+        font-size: 50px;
+      }
+    }
+  }
+}
+.hmeAbtContain {
+  max-width: 100%;
+  margin-top: 80px;
+  @include lgLaptop {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: 30px;
+    // text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 90%;
+    margin-left: 30px;
+    //Responsive
+    @include laptopBreakpoint {
+      margin-left: 60px;
+    }
+    @include lgDesktop {
+      font-size: 50px;
+    }
+    strong {
+      font-size: 30px;
+      //Responsive
+      @include lgDesktop {
+        font-size: 60px;
+      }
+    }
+  }
+  .abtUsText {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 20px;
+    //Responsive
+    @include Tablet {
+      width: 96%;
+    }
+    @include Laptop {
+      width: 60%;
+      margin-right: 40px;
+    }
+    @include laptopBreakpoint {
+      width: 90%;
+      margin-left: 60px;
+    }
+    p {
+      font-size: 17px;
+      font-weight: lighter;
+      color: #303030cd;
+      line-height: 26px;
+      //Responsive
+      @include Tablet {
+        font-size: 20px;
+        line-height: 30px;
+        width: 86%;
+      }
+      @include laptopBreakpoint {
+        font-size: 24px;
+        width: 100%;
+      }
+      @include lgLaptop {
+        line-height: 34px;
+      }
+    }
+  }
+}
+.proudWork {
+  max-width: 100%;
+  margin-top: 80px;
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%;
+    //Responsive
+    @include smMobile {
+      font-size: 26px;
+    }
+    @include lgDesktop {
+      font-size: 50px;
+    }
+    strong {
+      font-size: 30px;
+      //Responsive
+      @include lgDesktop {
+        font-size: 60px;
+      }
+    }
+  }
+  .proudProjectsContain {
+    width: 100%;
+    margin-top: 60px;
+    //Responsive
+    @include Tablet {
+      display: flex;
+    }
+    .projectOne {
+      background-color: #38b6ff52;
+    }
+    .projectTwo {
+      background-color: #fae9e952;
+    }
+  }
+  .proudProject:hover {
+    .mockSite {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+  .moreWorkBtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    a {
+      font-size: 22px;
+      font-weight: 200;
+      color: #303030;
+      text-transform: capitalize;
+      transition: 0.4s;
+      //Responsive
+      @include Desktop {
+        font-size: 30px;
+      }
+      @include lgDesktop {
+        font-size: 40px;
+      }
+      img {
+        height: 30px;
+        width: 30px;
+        margin-left: 20px;
+      }
+    }
+    a:hover {
+      color: #38b6ff;
+    }
+  }
+}

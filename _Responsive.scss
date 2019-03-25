@@ -1,0 +1,46 @@
+//Tablet
+@mixin smMobile {
+  @media only screen and (max-width: 330px) {
+    @content;
+  }
+}
+@mixin lgMobile {
+  @media only screen and(min-width: 414px) {
+    @content;
+  }
+}
+@mixin lgMobileBreakpoint {
+  @media only screen and(min-width: 600px) {
+    @content;
+  }
+}
+@mixin Tablet {
+  @media only screen and(min-width: 768px) {
+    @content;
+  }
+}
+@mixin Laptop {
+  @media only screen and(min-width: 1020px) {
+    @content;
+  }
+}
+@mixin laptopBreakpoint {
+  @media only screen and(min-width: 1200px) {
+    @content;
+  }
+}
+@mixin lgLaptop {
+  @media only screen and(min-width: 1440px) {
+    @content;
+  }
+}
+@mixin Desktop {
+  @media only screen and (min-width: 1920px) {
+    @content;
+  }
+}
+@mixin lgDesktop {
+  @media only screen and (min-width: 2560px) {
+    @content;
+  }
+}

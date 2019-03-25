@@ -1,0 +1,97 @@
+.relatedWorkContainer {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: -70px;
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #303030;
+    text-transform: capitalize;
+    margin-left: 40px;
+    strong {
+      font-size: 50;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: block;
+    }
+  }
+  .relatedProjects {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+.macBookMock {
+  height: 60%;
+  width: 44%;
+  transform: scale(1.3);
+  margin-top: 40px;
+  // padding-left: 43px;
+  //Responsive
+  @include Tablet {
+    height: 84%;
+    width: 54%;
+  }
+  @include Desktop {
+    margin-top: 70px;
+  }
+}
+.mockSite {
+  height: 85px;
+  width: 138.5px;
+  position: absolute;
+  margin-left: 101px;
+  margin-top: 50px;
+  transform: scale(0.9);
+  overflow: hidden;
+  //Responsive
+  @include lgMobile {
+    width: 183px;
+    margin-left: 86px;
+  }
+  @include lgMobileBreakpoint {
+    width: 225px;
+    margin-left: 157px;
+  }
+  @include Tablet {
+    height: 136px;
+    margin-left: 181.8px;
+    margin-top: 46px;
+    width: 390px;
+    transform: scale(0.8);
+  }
+  @include Laptop {
+    height: 136px;
+    margin-left: 237.8px;
+    margin-top: 53px;
+    width: 512px;
+  }
+  @include laptopBreakpoint {
+    height: 150px;
+    margin-left: 279.8px;
+    margin-top: 51px;
+    width: 601px;
+  }
+  @include lgLaptop {
+    height: 268px;
+    margin-left: 335.8px;
+    margin-top: 54px;
+    width: 719px;
+  }
+  @include Desktop {
+    height: 332px;
+    margin-left: 447.8px;
+    margin-top: 90px;
+    width: 967px;
+  }
+  @include lgDesktop {
+    height: 402px;
+    margin-left: 623.8px;
+    margin-top: 91px;
+    width: 1237px;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+  }
+}
