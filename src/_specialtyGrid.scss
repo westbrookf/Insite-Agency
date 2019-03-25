@@ -1,0 +1,139 @@
+.ourSpecialty {
+  max-width: 100%;
+  border-top: 1px solid #30303052;
+  margin-top: 30px;
+  .specialtiesContainer {
+    width: 100%;
+    padding-top: 80px;
+    //Responsive
+    @include Tablet {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    @include Laptop {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .ourSpecTitle {
+      font-size: 30px;
+      font-weight: 600;
+      // color: #303030;
+      text-transform: uppercase;
+      text-align: center;
+      //Responsive
+      @include Tablet {
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 40px;
+      }
+      @include Laptop {
+        font-size: 30px;
+        width: 100%;
+        margin-left: 0px;
+      }
+      @include Desktop {
+        font-size: 46px;
+      }
+      @include lgDesktop {
+        font-size: 50px;
+      }
+    }
+    .spec {
+      width: 90%;
+      margin-top: 60px;
+      margin-left: 20px;
+      .specIcon {
+        width: 30%;
+        margin-left: 120px;
+        //Responsive
+        @include smMobile {
+          margin-left: 100px;
+        }
+        @include lgMobile {
+          margin-left: 150px;
+        }
+        @include Laptop {
+          margin-left: 100px;
+        }
+        @include lgMobileBreakpoint {
+          margin-left: 220px;
+        }
+        @include Tablet {
+          margin-left: 120px;
+        }
+        @include laptopBreakpoint {
+          margin-left: 130px;
+        }
+        @include lgLaptop {
+          margin-left: 170px;
+        }
+        @include Desktop {
+          margin-left: 200px;
+        }
+        @include lgDesktop {
+          margin-left: 290px;
+        }
+        img {
+          height: 90px;
+          width: 90px;
+          //Responsive
+          @include Desktop {
+            height: 100px;
+            width: 100px;
+          }
+        }
+      }
+      .specialtyName {
+        text-align: center;
+        margin-top: 6px;
+        a {
+          font-size: 20px;
+          font-weight: 500;
+          color: #303030;
+          text-transform: capitalize;
+          transition: 0.4s;
+          //Responsive
+          @include Desktop {
+            font-size: 30px;
+          }
+          @include lgDesktop {
+            font-size: 40px;
+          }
+          img {
+            height: 20px;
+            width: 20px;
+            margin-left: 20px;
+            //Respoonsive
+            @include lgDesktop {
+              height: 30px;
+              width: 30px;
+            }
+          }
+        }
+      }
+      .specialtyDesc {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 26px;
+        margin-top: 10px;
+        //Responsive
+        @include Desktop {
+          font-size: 26px;
+          line-height: 32px;
+        }
+        @include lgDesktop {
+          font-size: 34px;
+          line-height: 38px;
+        }
+      }
+    }
+    .spec:hover {
+      .specialtyName {
+        a {
+          color: #38b6ff;
+        }
+      }
+    }
+  }
+}

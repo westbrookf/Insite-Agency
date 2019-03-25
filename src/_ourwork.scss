@@ -1,0 +1,82 @@
+.mockupContainer {
+  max-width: 100%;
+  margin-top: 60px;
+  margin-bottom: -70px;
+  h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #303030;
+    text-transform: capitalize;
+    margin-left: 40px;
+    //responsive
+    @include Tablet {
+      font-size: 40px;
+    }
+    @include Desktop {
+      font-size: 60px;
+    }
+    strong {
+      font-size: 50;
+      font-weight: 500;
+      text-transform: capitalize;
+      display: block;
+      //Responsive
+      @include Tablet {
+        display: inline;
+      }
+    }
+  }
+  .macMockupGrid {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .projectOne {
+    background-color: #b082824d;
+  }
+  .projectTwo {
+    background-color: #96ab664d;
+  }
+  .projectThree {
+    background-color: #48cbb74d;
+  }
+  .projectFour {
+    background-color: #4ea7c74d;
+  }
+  .projectFive {
+    background-color: #2d24944d;
+  }
+  .projectSix {
+    background-color: #3c11da4d;
+  }
+  .projectSeven {
+    background-color: #1734574d;
+  }
+  .projectEight {
+    background-color: #3d0fe64d;
+  }
+  .projectNine {
+    background-color: #5d0c6a4d;
+  }
+  .projectTen {
+    background-color: #0f80944d;
+  }
+  .projectEleven {
+    background-color: #0b6c264d;
+  }
+  .projectTwelve {
+    background-color: #6842084d;
+  }
+  .projectThirteen {
+    background-color: #57172f51;
+  }
+  .projectFourteen {
+    background-color: #174d574d;
+  }
+}
+.proudProject:hover {
+  .mockSite {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}
